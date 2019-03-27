@@ -16,5 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/datasource', 'DataSourceController@index')->name('datasource');
+Route::post('/datasource/sementara', 'DataSourceController@sementara')->name('datasource.sementara');
+Route::post('/datasource', 'DataSourceController@store')->name('datasource.store');
+
 Route::get('/generate', 'GenerateController@index')->name('generate');
 Route::resource('/template', 'TemplateController');

